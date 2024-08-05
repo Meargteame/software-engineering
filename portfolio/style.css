@@ -1,0 +1,112 @@
+/*global*/
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar section start*/
+.navbar{
+    background-color:#333 ;
+    color: #fff;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.logo a{
+    font-size: 28px;
+    font-weight: 900;
+    color:red;
+    text-decoration: none;
+    padding-left: 40px;
+}
+.nav-list{
+    list-style-type:none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+height: 70px;
+align-items: center;
+}
+.nav-list li{
+    margin-right: 14px;
+}
+.nav-list li a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 12px ;
+    line-height: 1.8;
+   font-size: 20px;
+}
+.nav-list li a:hover{
+    background-color: red;
+}
+/* navbar section end*/
+/* home section start*/
+#home{
+    background-color: #333;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+h1{
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: red;
+}
+.container p{
+    font: 24px;
+    margin-bottom: 40px;
+    color: #fff;
+    font-weight: 500;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color:aqua;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover{
+    background-color:#ff3b1f ;
+}
+#about{
+    background-color: #33;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#about img{
+    border: dotted;
+    border-radius: 50%;
+    border-color: red;
+    width: 300px;
+}
+#portfolio img{
+    width: 100%;
+}
+
+
+/* home section end*/
+/* about me section start*/
+
+
+
+/* about me section end*/
